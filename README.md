@@ -4,6 +4,8 @@ This application allows you to simply upload or view files to IPFS via web3.stor
 
 **P.S:** The application is under development, at the moment it has just simply uploading and viewing files functionalities.
 
+> Since it will be a little troublesome to deploy the bot at this stage, if you want to test the bot quickly, write to me and I can send you a slack link where you can try the bot.
+
 ## Upload a File
 
 When any file is uploaded to Slack, the application automatically detects it in the channels it is attached to. After showing the user some data about the file, it asks if they want to upload the file to IPFS. If the user approves, the upload to IPFS is started.
