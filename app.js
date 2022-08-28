@@ -11,7 +11,7 @@ const app = new App({
 });
 
 function getAccessToken () {
-    return 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDhhMTc4QjJjQjE5OTQ3ZDgyNTZGRGUyYWY2ODhBM2ZiRTk4QjZCRkEiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NjE1MjEwNjI4MzIsIm5hbWUiOiJzbGFjay1ib3QtdG9rZW4ifQ.yutqRUxMmzO8L6QT6TnDr-n_2XGI998Y1Pmpgnj0juk'
+    return process.env.WEB3STORAGE_TOKEN;
 }
 
 function makeStorageClient () {
