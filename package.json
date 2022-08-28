@@ -1,0 +1,24 @@
+{
+  "name": "slack-ipfs-app",
+  "version": "1.0.0",
+  "description": "IPFS app for Slack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolgayayci/slack-ipfs-app.git"
+  },
+  "author": "Tolga Yaycı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolgayayci/slack-ipfs-app/issues"
+  },
+  "homepage": "https://github.com/tolgayayci/slack-ipfs-app#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.12.1",
+    "axios": "^0.27.2",
+    "web3.storage": "^4.4.0"
+  }
+}
